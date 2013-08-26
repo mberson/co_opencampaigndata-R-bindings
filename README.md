@@ -8,8 +8,8 @@ This repository contains R bindings for the API, so you can get your political s
 
 This package uses R data frames to represent API calls. Each row represents a parameter-value pair. For example:
 
-> myFrame <- edit(data.frame())
-> myFrame
+ myFrame <- edit(data.frame())
+ myFrame
   parameter value
 1    offset     4
 2 minAmount  2000
