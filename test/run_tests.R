@@ -4,7 +4,7 @@ source('expenditures.R')
 
 test.suite <- defineTestSuite("expenditures",
                               dirs = file.path("."),
-                              testFileRegexp = '^\\w\\.R')
+                              testFileRegexp = '^\\w*\\.R')
 
 test.result <- runTestSuite(test.suite)
 
