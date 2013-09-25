@@ -6,7 +6,7 @@ This repository contains R bindings for the API, so you can get your political s
 
 ## Getting Started
 
-The API provides three kinds of requests: contributions, expenditures and loans. Oddly, this package provides three functions: get_contributions, get_expenditures and get_loans. The user is expected to provide to each of these functions an R list wherein the values are named after the parameters to the API call. For example:
+The API provides three kinds of requests: contributions, expenditures and loans. Oddly, this package provides three functions: `get_contributions`, `get_expenditures` and `get_loans`. The user is expected to provide to each of these functions an R list wherein the values are named after the parameters to the API call. For example:
 
 ```
 > contribution_req <- list ( apiKey = "XXXXXX" ,
